@@ -1,2 +1,0 @@
-# TareasDigitalHouse
-Clase8
