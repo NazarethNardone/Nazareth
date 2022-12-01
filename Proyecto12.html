@@ -1,0 +1,28 @@
+<html>
+    <title>Ejemplo Hora Naza</title>
+
+    <head>
+        <script>
+            function Ver_Hora() {
+                var milhora=new Date();
+                var horas=milhora.getHours().toString();
+                var minutos=milhora.getMinutes().toString().
+                if (minutos.lenght == 1) minutos = "0"+ minutos;
+                var segundos = milhora.getSeconds().toString();
+                if (segundos.length == 1) segundos = "0" + segundos;
+                document.forms[0].mireloj.value = horas + ":" + minutos + " " + segundos;
+                
+            }        
+        </script>
+    </head>
+    <body>
+        <form>
+            <palign="center">
+             <input type="text" size="10" name="mireloj">
+            </p>
+        </form>
+        <script>
+            var r= setInterval("Ver_Hora"(), 500);
+        </script>
+    </body>
+</html>
