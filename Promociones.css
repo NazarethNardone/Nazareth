@@ -1,0 +1,25 @@
+.Promos{
+    background-color: pink;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    padding: 5px;
+    text-align: center; 
+    overflow: hidden;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+
+
+.Promo1 {height: 100px; width: 500px;}
+.Promo2 {height: 100px; width: 500px;}
+.Promo3 {height: 100px; width: 500px;}
+.Promo4 {height: 100px; width: 500px;}
+
+.contenedor {
+    background-image: url(https://phantom-elmundo.unidadeditorial.es/c2e17ad03c10190925608e4bc62e7745/resize/1200/f/jpg/assets/multimedia/imagenes/2021/09/20/16321284993130.jpg);
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+}

@@ -1,0 +1,133 @@
+
+.texto {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}  
+
+.title{
+    font-size: 20px; text-align: center;
+    font-style: Condensed; color: rgb(255, 255, 255); 
+    background-color:#ffc4dc;
+    padding: 10px;  
+} 
+
+header {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    background: rgb(224, 149, 149);
+    
+}
+ header nav {
+    float: right;
+    line-height: 120px;
+    margin-right: 330px;
+}
+
+header nav a {
+    display:inline-block;
+    color: rgb(255, 255, 255); 
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 17px;
+    font-weight: bold;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+    
+}
+
+header nav a:hover{
+    background:#ffc4dc;
+    border-radius: 50px;
+
+
+}
+
+.main.{
+    margin: 0%;
+    padding: 0%;
+}
+
+.caja1 {
+    background-image: url(https://phantom-elmundo.unidadeditorial.es/c2e17ad03c10190925608e4bc62e7745/resize/1200/f/jpg/assets/multimedia/imagenes/2021/09/20/16321284993130.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+    
+}
+
+
+.foto2 {
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 100px;
+
+}
+
+
+.caja2 {
+    background-image: url(https://thumbs.dreamstime.com/b/ojo-de-la-mujer-con-las-pesta%C3%B1as-largas-extensi%C3%B3n-de-la-pesta%C3%B1a-40114594.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.foto3 {
+    width: 450px;
+    height: 500px;
+    padding: 80px;
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+
+.foto4 {
+    width: 450px;
+    height: 500px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    margin-left: 50px;
+}
+
+.texto1{
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 10px;
+   color: black;
+}
+
+
+.Footer {
+    background-color: rgb(224, 149, 149);
+    height: 150px;
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif, bold; color:white;
+    font-size: 16px; 
+
+
+}    
+
+.pic {
+   float: left;
+    
+}
